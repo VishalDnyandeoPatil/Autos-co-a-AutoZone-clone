@@ -1,0 +1,337 @@
+/* header */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+header>#navtop{
+    width: 100%;
+    height: 20%;
+    background: rgb(254,232,232);
+}
+#navtop{
+    display: flex;
+    
+}
+#navtop div{
+    display: flex;
+    margin: 0.5%;
+
+}
+#navtop img{
+    width: 3%;
+}
+#navtop>.left-right{
+    justify-content: end;  
+}
+header>#navmiddel{
+    width: 100%;
+    height: 60%;
+}
+#navmiddle{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2%; */
+}
+#navmiddle>.logo img{
+    width: 15%;
+    margin-left: 60px;
+}
+#navmiddle>.cart-login{
+    display: flex;
+    justify-content: center; 
+}
+#navmiddle>.cart-login>img{
+    width: 30%;
+}
+#navmiddle>.cart-login>a>img{
+    width: 60%;
+}
+
+#navmiddle>.search{
+    margin: auto;
+    margin-left: -100px;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    display: flex;
+}
+.search>button{
+    width: auto;
+    display: flex;
+    padding: 5px;
+}
+.search>input{
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+}
+
+#navbottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+#navbottom a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#navbottom a:hover{
+    color: pink;
+}
+
+#container img{
+    width: 100%;
+   
+}
+#container>div{
+    margin-top: 2%;
+}
+
+#flexMove{
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    display: flex;
+    width: 93%;
+}
+.button{
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#lipstickBanner{
+    width: 95%;
+    margin: auto;
+}
+#lipstickBanner>img{
+    width: 100%;
+}
+#lipstickBanner:hover{
+    width: 100%;
+    cursor: pointer;
+}
+#container>#spotlightText>h2{
+    margin: auto;
+    width: 20%;
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+#spotlightDiv{
+    display: flex;
+    gap: 30px;
+    width: 95%;
+    margin: auto;
+    font-size: 25px;
+}
+
+#spotlightDiv a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#spotlightDiv div:hover{
+    width: 105%;
+}
+#makeupBanner{
+    width: 95%;
+    margin: auto;
+}
+
+#container>#latestGlammText>h2{
+    margin: auto;
+    width: 30%;
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+#latestGlammDiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    width: 95%;
+    margin: auto;
+    font-size: 25px;
+}
+#latestGlammDiv a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#latestGlammDiv img {
+    width: 25%;
+}
+
+#latestGlammDiv div:hover{
+    width: 105%;
+    /* width: 55%; */
+}
+#essentialBudget{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    font-size: 25px;
+}
+#essentialBudget>div{
+    width: 30%;
+}
+#container>#categoryText>a>h2{
+    margin: auto;
+    width: 25%;
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+#categoryText a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#categoryText a:hover{
+    color: rgb(143, 30, 49);
+}
+#categoryTextDiv{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#categoryTextDiv a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#categoryTextDiv>a>div:hover{
+    width: 105%;
+}
+#categoryTextDiv img{
+    margin-bottom: 20px;
+}
+#selfCare{
+    width: 95%;
+    margin: auto;
+}
+#glowCalenderPick{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+#glowCalenderPick>div{
+    width: 30%;
+}
+#kajalandshade{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+#kajalandshade>div{
+    width: 48%;
+}
+#bestsellerText>h2{
+    margin: auto;
+    width: 25%;
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+#bestsellerDiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+}
+
+#bestsellerDiv>div{
+    border: 1px solid black;
+    padding: 5%;
+}
+
+#loveShopText>h2{
+    margin: auto;
+    width: 25%;
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+#loveShopDiv{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+}
+
+#loveShopDiv>div{
+    border: 1px solid black;
+    padding: 5%;
+}
+#winBanner{
+    width: 95%;
+    margin: auto;
+}
+#beware{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    padding: 10px;
+    padding-bottom: 25px;
+    border: 5px dashed rgb(253,180,177);
+    color: rgb(132,123,123);
+    background-color: rgb(255,231,231);
+    margin-bottom: 20px;
+}
+#beware>h1{
+    font-size: 125px;
+    color: rgb(86,81,81);
+}
+#footerContainer{
+    width: 98%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+footer>div{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    gap: 10px;
+   
+}
+#footerContainer>div>h3{
+    color: rgb(201,197,195);
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+#footerContainer a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#footerContainer a:hover{ 
+    color: pink
+}
