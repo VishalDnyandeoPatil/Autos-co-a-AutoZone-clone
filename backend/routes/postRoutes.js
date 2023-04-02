@@ -25,7 +25,7 @@ postRouter.get('/:id',async(req,res)=>{
     }
 })
 
-postRouter.post('/',async(req,res)=>{
+postRouter.post('/add',async(req,res)=>{
     try {
         const data = req.body;
         const newPost =  new post (data);

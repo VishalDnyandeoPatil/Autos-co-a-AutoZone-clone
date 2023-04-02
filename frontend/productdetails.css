@@ -1,0 +1,162 @@
+/* header */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+header>#navmiddel{
+    width: 100%;
+    height: 60%;
+}
+#navmiddle{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2%; */
+}
+#navmiddle>.logo img{
+    width: 15%;
+    margin-left: 60px;
+}
+#navmiddle>.cart-login{
+    display: flex;
+    justify-content: center; 
+}
+#navmiddle>.cart-login>img{
+    width: 30%;
+}
+#navmiddle>.cart-login>a>img{
+    width: 60%;
+}
+
+#navmiddle>.search{
+    margin: auto;
+    margin-left: -100px;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    display: flex;
+}
+.search>button{
+    width: auto;
+    display: flex;
+    padding: 5px;
+}
+.search>input{
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+}
+
+#navbottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+#navbottom a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#navbottom a:hover{
+    color: red;
+}
+
+/* footer  */
+
+#footerContainer{
+    width: 98%;
+    margin: auto;
+    padding-bottom: 5%;
+    background-color: black;
+}
+footer>div{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+   
+}
+#footerContainer>div>h3{
+    color: white;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+#footerContainer a{
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
+#footerContainer a:hover{ 
+    color: red
+}
+
+/* container  */
+#container{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;  
+    margin-bottom: 5%;  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    column-gap:2% ;
+    row-gap:20px ;
+    grid-template-areas:
+    "child1 child2"
+    "child3 child3";
+}
+
+#container img{
+    width: 50%;
+}
+#container>div:nth-child(1){
+    /* border: 1px solid green; */
+    text-align: center;
+    grid-area: child1;
+}
+#container>div:nth-child(2){
+    /* border: 1px solid blue; */
+    text-align: center;
+    grid-area: child2;
+    font-size: 20px;
+}
+#container>div:nth-child(3){
+    /* border: 1px solid brown; */
+    text-align: center;
+    grid-area: child3;
+    font-size: 30px;
+}
+#container>div>div>h2, #container>div>div>h5, #container>div>div>h3, #container>div>div>button,  #container>div>div>h4{
+    /* border: 1px solid blue; */
+    /* color: blue; */
+    margin: 2%;
+}
+
+#container>div>div>button{
+    padding: 2%;
+    border-radius: 5px;
+    border: 0px;
+    background-color: black;
+    color: white;
+}
+#container>div>div>button:hover{
+    padding: 3%;
+    border-radius: 5px;
+    border: 0px;
+    background-color: black;
+    color: red;
+}
+

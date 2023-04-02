@@ -11,26 +11,6 @@ header{
     background-color: white;
 }
 
-header>#navtop{
-    width: 100%;
-    height: 20%;
-    background: rgb(254,232,232);
-}
-#navtop{
-    display: flex;
-    
-}
-#navtop div{
-    display: flex;
-    margin: 0.5%;
-
-}
-#navtop img{
-    width: 3%;
-}
-#navtop>.left-right{
-    justify-content: end;  
-}
 header>#navmiddel{
     width: 100%;
     height: 60%;
@@ -88,8 +68,10 @@ header>#navmiddel{
 }
 
 #navbottom a:hover{
-    color: pink;
+    color: red;
 }
+
+ /* middel body  */
 
 #container img{
     width: 100%;
@@ -190,7 +172,7 @@ header>#navmiddel{
     font-size: 25px;
 }
 #essentialBudget>div{
-    width: 30%;
+    width: 48%;
 }
 #container>#categoryText>a>h2{
     margin: auto;
@@ -223,7 +205,11 @@ header>#navmiddel{
 #categoryTextDiv>a>div:hover{
     width: 105%;
 }
-#categoryTextDiv img{
+
+#categoryTextDiv img{   
+    width: 50%;
+}
+#categoryTextDiv img{   
     margin-bottom: 20px;
 }
 #selfCare{
@@ -241,12 +227,12 @@ header>#navmiddel{
 }
 #kajalandshade{
     display: flex;
-    width: 95%;
+    width: 98%;
     margin: auto;
     justify-content: space-between;
 }
 #kajalandshade>div{
-    width: 48%;
+    width: 49%;
 }
 #bestsellerText>h2{
     margin: auto;
@@ -282,6 +268,7 @@ header>#navmiddel{
     gap: 20px;
     width: 95%;
     margin: auto;
+    margin-bottom: 2%;
 }
 
 #loveShopDiv>div{
@@ -309,29 +296,33 @@ header>#navmiddel{
     font-size: 125px;
     color: rgb(86,81,81);
 }
+
+/* footer  */
+
 #footerContainer{
     width: 98%;
     margin: auto;
     padding-bottom: 5%;
+    background-color: black;
 }
 footer>div{
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(11,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 10px;
    
 }
 #footerContainer>div>h3{
-    color: rgb(201,197,195);
+    color: white;
     margin: auto;
     margin-bottom: 5%;
     padding: 5px;
 }
 #footerContainer a{
     text-decoration: none;
-    color: black;
+    color: blue;
     text-align: center;
 }
 #footerContainer a:hover{ 
-    color: pink
+    color: red
 }

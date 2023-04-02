@@ -5,7 +5,7 @@ const postSchema = mongoose.Schema({
     img: { type: String, require: true },
     discription: { type: String, require: true },
     rating: { type: Number, require: true },
-    price: { type: Number, require: true },
+    price: { type: String, require: true },
 });
 
 const post = mongoose.model('post',postSchema);
