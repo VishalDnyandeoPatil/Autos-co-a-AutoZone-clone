@@ -10,8 +10,14 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Routes are remaing
+// Routes 
+ app.get('/', (req,res)=>{
+    res.send("Home Page")
+ })
 
+ app.use('/users', userRouter)
+//  app.use('/posts', authenticator, postRouter)
+ app.use('/posts',  postRouter)
 
 app.listen(port, async()=>{
     try {

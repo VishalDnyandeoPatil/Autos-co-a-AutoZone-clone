@@ -1,0 +1,154 @@
+/* header */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+header>#navmiddel{
+    width: 100%;
+    height: 60%;
+}
+#navmiddle{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2%; */
+}
+#navmiddle>.logo img{
+    width: 15%;
+    margin-left: 60px;
+}
+#navmiddle>.cart-login{
+    display: flex;
+    justify-content: center; 
+}
+#navmiddle>.cart-login>img{
+    width: 30%;
+}
+#navmiddle>.cart-login>a>img{
+    width: 60%;
+}
+
+#navmiddle>.search{
+    margin: auto;
+    margin-left: -100px;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    display: flex;
+}
+.search>button{
+    width: auto;
+    display: flex;
+    padding: 5px;
+}
+.search>input{
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+}
+
+#navbottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+#navbottom a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#navbottom a:hover{
+    color: red;
+}
+
+/* footer  */
+
+#footerContainer{
+    width: 98%;
+    margin: auto;
+    padding-bottom: 5%;
+    background-color: black;
+}
+footer>div{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+   
+}
+#footerContainer>div>h3{
+    color: white;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+#footerContainer a{
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
+#footerContainer a:hover{ 
+    color: red
+}
+
+/* container body  */
+
+#container{
+    width: 20%;
+    background-image: url("./logo/Red\ Minimal\ Car\ Illustration\ Free\ Logo.png");
+    background-position-x: 40%;
+    background-position-y: 50%;
+    background-size: 100%;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* justify-content: center; */
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    
+}
+
+#signUp{
+    display: none;
+}
+input{
+    text-align: center;
+    margin: 10px;
+    height: 25px;
+    
+}
+.submitBtn{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+.submitBtn:hover{
+    padding: 8px;
+    padding-bottom: 22px;
+}
+
+#signUpPage{
+    text-align: center;
+    padding: 1.8%;
+    border-radius: 5px;  
+    border: 1.5px solid black;
+}
+#signUpPage:hover{
+    padding: 8px;
+    
+}
