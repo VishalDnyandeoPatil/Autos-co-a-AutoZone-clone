@@ -59,7 +59,7 @@ https://boisterous-scone-96768a.netlify.app/
 <h2> Sign In Page </h2>
 <br>
 <br>
-<img src="./signinPage.png" alt="page3">
+<img src="./signInPage.png" alt="page3">
 <br>
 <br>
 
