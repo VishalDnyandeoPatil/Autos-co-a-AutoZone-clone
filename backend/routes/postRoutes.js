@@ -5,8 +5,8 @@ const postRouter= express.Router();
 postRouter.get("/",async(req,res)=>{
     try {
         const {userId}= req.body;
-        const {device=["Laptop", "Tablet", "Mobile"]}= req.query;
-        const Post = await post.find({$and:[{userId},{device:{$in:device}}]});
+        // const {device=["Laptop", "Tablet", "Mobile"]}= req.query;
+        const Post = await post.find({$and:[{userId}]});
         res.json({Post, msg:"Your post"});    
     } 
     catch (error) {

@@ -1,6 +1,8 @@
 let bag=[];
 let lipsticksProduct=[] ;
 let url= "http://localhost:8300/posts/";
+// let url= "https://calm-cyan-raven-vest.cyclic.app/posts";
+// let url= "http://calm-cyan-raven-vest.cyclic.app/posts";
 fetch(url)
 .then((res)=> res.json())
 .then((data)=>{
